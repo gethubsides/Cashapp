@@ -13,6 +13,14 @@
 		293C62F62763E22A00D665D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293C62F42763E22A00D665D5 /* Main.storyboard */; };
 		293C62F82763E22B00D665D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293C62F72763E22B00D665D5 /* Assets.xcassets */; };
 		293C62FB2763E22B00D665D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293C62F92763E22B00D665D5 /* LaunchScreen.storyboard */; };
+		293C63052764078100D665D5 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293C63042764078100D665D5 /* SendViewController.swift */; };
+		2977841E2766874F00D24825 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977841D2766874F00D24825 /* LoadingViewController.swift */; };
+		2977842027668C7800D24825 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977841F27668C7800D24825 /* ResultViewController.swift */; };
+		297784222768228000D24825 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297784212768228000D24825 /* SuccessViewController.swift */; };
+		29778424276892EE00D24825 /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29778423276892EE00D24825 /* BalanceViewController.swift */; };
+		2977842627689CF600D24825 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977842527689CF600D24825 /* ActivityViewController.swift */; };
+		2977842827689D6500D24825 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977842727689D6500D24825 /* ActivityCell.swift */; };
+		2977842A2768A3C300D24825 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297784292768A3C300D24825 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		293C62F72763E22B00D665D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		293C62FA2763E22B00D665D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		293C62FC2763E22B00D665D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293C63042764078100D665D5 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		2977841D2766874F00D24825 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		2977841F27668C7800D24825 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		297784212768228000D24825 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		29778423276892EE00D24825 /* BalanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		2977842527689CF600D24825 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		2977842727689D6500D24825 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		297784292768A3C300D24825 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		293C62ED2763E22A00D665D5 /* CashappSpoof */ = {
 			isa = PBXGroup;
 			children = (
+				297784212768228000D24825 /* SuccessViewController.swift */,
 				293C62EE2763E22A00D665D5 /* AppDelegate.swift */,
 				293C62F02763E22A00D665D5 /* SceneDelegate.swift */,
 				293C62F22763E22A00D665D5 /* ViewController.swift */,
@@ -63,6 +80,13 @@
 				293C62F72763E22B00D665D5 /* Assets.xcassets */,
 				293C62F92763E22B00D665D5 /* LaunchScreen.storyboard */,
 				293C62FC2763E22B00D665D5 /* Info.plist */,
+				293C63042764078100D665D5 /* SendViewController.swift */,
+				2977841D2766874F00D24825 /* LoadingViewController.swift */,
+				2977841F27668C7800D24825 /* ResultViewController.swift */,
+				29778423276892EE00D24825 /* BalanceViewController.swift */,
+				2977842527689CF600D24825 /* ActivityViewController.swift */,
+				2977842727689D6500D24825 /* ActivityCell.swift */,
+				297784292768A3C300D24825 /* DataManager.swift */,
 			);
 			path = CashappSpoof;
 			sourceTree = "<group>";
@@ -138,9 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2977841E2766874F00D24825 /* LoadingViewController.swift in Sources */,
+				297784222768228000D24825 /* SuccessViewController.swift in Sources */,
+				2977842827689D6500D24825 /* ActivityCell.swift in Sources */,
+				293C63052764078100D665D5 /* SendViewController.swift in Sources */,
+				29778424276892EE00D24825 /* BalanceViewController.swift in Sources */,
+				2977842627689CF600D24825 /* ActivityViewController.swift in Sources */,
 				293C62F32763E22A00D665D5 /* ViewController.swift in Sources */,
 				293C62EF2763E22A00D665D5 /* AppDelegate.swift in Sources */,
+				2977842A2768A3C300D24825 /* DataManager.swift in Sources */,
 				293C62F12763E22A00D665D5 /* SceneDelegate.swift in Sources */,
+				2977842027668C7800D24825 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +335,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigbrains.CashappSpoof;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CashappSpoof;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -331,7 +363,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.bigbrains.CashappSpoof;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CashappSpoof;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

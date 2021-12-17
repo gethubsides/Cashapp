@@ -8,7 +8,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "25AB3AAA-5E7F-49AD-BFDC-7D0C0D691E87"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CashappSpoof/ViewController.swift"
@@ -24,15 +24,235 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2163E92B-5369-489B-88B0-B1C6430F18E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CashappSpoof/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "pay_button(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EDC8FDC-2DEA-4EAA-98C6-DFEAF29B736F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CashappSpoof/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "pay_button(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CC09F16-E7A8-448D-A24D-47660164888B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CashappSpoof/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
-            landmarkName = "pay_button(_:)"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "backspace(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38658514-C071-4695-97E4-8BC9E957ED03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CashappSpoof/SendViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "textFieldShouldReturn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "48EE458D-752D-4462-9932-42266A2DC5AC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CashappSpoof/SendViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "payButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBAB5954-C2CA-4C8E-83B1-A2664BBA2C99"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CashappSpoof/SuccessViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "SuccessViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "EBAB5954-C2CA-4C8E-83B1-A2664BBA2C99 - 55425584340ca022"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CashappSpoof.SuccessViewController.topLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CashappSpoof"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethankeiser/Documents/Projects/CashappSpoof/CashappSpoof/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "EBAB5954-C2CA-4C8E-83B1-A2664BBA2C99 - bb645aacc812441e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CashappSpoof.SuccessViewController.topLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CashappSpoof"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethankeiser/Documents/Projects/CashappSpoof/CashappSpoof/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "EBAB5954-C2CA-4C8E-83B1-A2664BBA2C99 - a56e5e2d7fcf4591"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CashappSpoof.SuccessViewController.topLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "CashappSpoof"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethankeiser/Documents/Projects/CashappSpoof/CashappSpoof/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "EBAB5954-C2CA-4C8E-83B1-A2664BBA2C99 - 22c0c1760d8efcfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CashappSpoof.SuccessViewController.topLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "CashappSpoof"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethankeiser/Documents/Projects/CashappSpoof/CashappSpoof/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "EBAB5954-C2CA-4C8E-83B1-A2664BBA2C99 - ba11c9a0936b55b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CashappSpoof.SuccessViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; CashappSpoof.SuccessViewController"
+                  moduleName = "CashappSpoof"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethankeiser/Documents/Projects/CashappSpoof/CashappSpoof/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "263">
+               </Location>
+               <Location
+                  uuid = "EBAB5954-C2CA-4C8E-83B1-A2664BBA2C99 - b4069de3ccb0b77a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CashappSpoof.SuccessViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CashappSpoof.SuccessViewController&gt;"
+                  moduleName = "CashappSpoof"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ethankeiser/Documents/Projects/CashappSpoof/CashappSpoof/SuccessViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "635CF5A4-2C7C-430D-B097-DD1F59645329"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CashappSpoof/ActivityViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2F086C0-7CF6-4A03-83C7-8525C4F379F6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CashappSpoof/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "historyButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "526BF67C-3264-406E-81EB-A69E6B7185E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CashappSpoof/LoadingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "timeup()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

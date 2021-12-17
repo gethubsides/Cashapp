@@ -45,11 +45,33 @@ class ViewController: UIViewController {
         }
     }
 
+    @IBAction func balance(_ sender: Any) {
+        if let vc =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BalanceViewController") as? BalanceViewController {
+            
+            navigationController?.pushViewController(vc, animated:false)
+        }
+    }
     override var prefersStatusBarHidden: Bool {
         return isStatusBarHidden
     }
     @IBAction func pay_button(_ sender: Any) {
+        if let vc =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SendViewController") as? SendViewController {
+            vc.modalPresentationStyle = .fullScreen
+            
+           let nav = UINavigationController(rootViewController: vc)
+            nav.modalPresentationStyle = .fullScreen
+            nav.isNavigationBarHidden = true
+            vc.amountString = self.numberLabel.text
+            navigationController?.present(nav, animated: true, completion: nil)
+            
+        }
     }
     
+    @IBAction func historyButton(_ sender: Any) {
+        if let vc =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ActivityViewController") as? ActivityViewController {
+            
+            navigationController?.pushViewController(vc, animated: false)
+        }
+    }
 }
 
