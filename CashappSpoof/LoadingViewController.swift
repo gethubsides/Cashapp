@@ -10,11 +10,12 @@ class LoadingViewController: UIViewController {
 
     @IBOutlet weak var activityView: UIActivityIndicatorView!
     var userName = ""
-    var amount = ""
+    var amount = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         Timer.scheduledTimer(timeInterval: 2, target: self, selector: #selector(timeup), userInfo: nil, repeats: false)
-        DataManger.shared.payment.append(Payment(userName: userName, amount: amount))
+        DataManger.shared.payment.insert(Payment(userName: userName, amount: amount), at: 0)
+        DataManger.shared.totalFunds -= amount
         // Do any additional setup after loading the view.
     }
     @objc func timeup() {
@@ -25,7 +26,7 @@ class LoadingViewController: UIViewController {
         } else {
             let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SuccessViewController") as? SuccessViewController
             vc?.userName = userName
-            vc?.amount = amount
+            vc?.amount = String.toCurrency(amount)
             navigationController?.pushViewController(vc!, animated: true)
         }
         

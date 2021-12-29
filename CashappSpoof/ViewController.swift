@@ -39,11 +39,7 @@ class ViewController: UIViewController {
         }
     }
     
-    private var isStatusBarHidden = true {
-        didSet {
-            setNeedsStatusBarAppearanceUpdate()
-        }
-    }
+
 
     @IBAction func balance(_ sender: Any) {
         if let vc =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "BalanceViewController") as? BalanceViewController {
@@ -51,9 +47,7 @@ class ViewController: UIViewController {
             navigationController?.pushViewController(vc, animated:false)
         }
     }
-    override var prefersStatusBarHidden: Bool {
-        return isStatusBarHidden
-    }
+
     @IBAction func pay_button(_ sender: Any) {
         if let vc =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SendViewController") as? SendViewController {
             vc.modalPresentationStyle = .fullScreen
@@ -61,7 +55,10 @@ class ViewController: UIViewController {
            let nav = UINavigationController(rootViewController: vc)
             nav.modalPresentationStyle = .fullScreen
             nav.isNavigationBarHidden = true
-            vc.amountString = self.numberLabel.text
+            
+            var money = self.numberLabel.text!
+            money.removeFirst()
+            vc.amountString = Int(money)!
             navigationController?.present(nav, animated: true, completion: nil)
             
         }

@@ -21,6 +21,8 @@
 		2977842627689CF600D24825 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977842527689CF600D24825 /* ActivityViewController.swift */; };
 		2977842827689D6500D24825 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977842727689D6500D24825 /* ActivityCell.swift */; };
 		2977842A2768A3C300D24825 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 297784292768A3C300D24825 /* DataManager.swift */; };
+		29AE3931276E36F500B9C76D /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE3930276E36F500B9C76D /* ImageViewExtension.swift */; };
+		29AE3933276FAB5100B9C76D /* ActivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AE3932276FAB5100B9C76D /* ActivityDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		2977842527689CF600D24825 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		2977842727689D6500D24825 /* ActivityCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
 		297784292768A3C300D24825 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		29AE3930276E36F500B9C76D /* ImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		29AE3932276FAB5100B9C76D /* ActivityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				2977842527689CF600D24825 /* ActivityViewController.swift */,
 				2977842727689D6500D24825 /* ActivityCell.swift */,
 				297784292768A3C300D24825 /* DataManager.swift */,
+				29AE3930276E36F500B9C76D /* ImageViewExtension.swift */,
+				29AE3932276FAB5100B9C76D /* ActivityDetailViewController.swift */,
 			);
 			path = CashappSpoof;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 				293C62EF2763E22A00D665D5 /* AppDelegate.swift in Sources */,
 				2977842A2768A3C300D24825 /* DataManager.swift in Sources */,
 				293C62F12763E22A00D665D5 /* SceneDelegate.swift in Sources */,
+				29AE3933276FAB5100B9C76D /* ActivityDetailViewController.swift in Sources */,
+				29AE3931276E36F500B9C76D /* ImageViewExtension.swift in Sources */,
 				2977842027668C7800D24825 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-var success = true
+var success = false
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

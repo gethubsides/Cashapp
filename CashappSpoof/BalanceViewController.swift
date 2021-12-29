@@ -11,17 +11,21 @@ class BalanceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.balanceLabel.text = String.toCurrency(DataManger.shared.totalFunds)
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var balanceLabel: UILabel!
     @IBAction func sendButton(_ sender: Any) {
         self.navigationController?.popViewController(animated: false)
     }
     @IBAction func historyButton(_ sender: Any) {
-        
+        if let vc =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ActivityViewController") as? ActivityViewController {
+            
+            navigationController?.pushViewController(vc, animated: false)
+        }
     }
-    
+
     /*
     // MARK: - Navigation
 

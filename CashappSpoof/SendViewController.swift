@@ -10,13 +10,13 @@ import UIKit
 class SendViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var amountlabel: UILabel!
-    var amountString : String?
+    var amountString = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         userTextField.delegate = self
         notesTextField.delegate = self
         userTextField.autocorrectionType = .no
-        amountlabel.text = amountString ?? ""
+        amountlabel.text = String.toCurrency(amountString)
         
         // Do any additional setup after loading the view.
     }
@@ -33,7 +33,7 @@ class SendViewController: UIViewController, UITextFieldDelegate {
     }
     @IBAction func payButton(_ sender: Any) {
        let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "LoadingViewController") as? LoadingViewController
-        vc!.amount = amountString!
+        vc!.amount = amountString
         vc!.userName = userTextField.text!
         navigationController?.pushViewController(vc!, animated: true)
     }
@@ -42,17 +42,7 @@ class SendViewController: UIViewController, UITextFieldDelegate {
     
     
     
-    
-    private var isStatusBarHidden = true {
-        didSet {
-            setNeedsStatusBarAppearanceUpdate()
-        }
-    }
 
-    override var prefersStatusBarHidden: Bool {
-        return isStatusBarHidden
-    }
-    
     /*
     // MARK: - Navigation
 

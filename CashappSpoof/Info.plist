@@ -5,7 +5,7 @@
 	<key>CFBundleName</key>
 	<string>Cash App</string>
 	<key>UIStatusBarHidden</key>
-	<true/>
+	<false/>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>
